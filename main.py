@@ -95,6 +95,7 @@ async def server_root(apk: str, dek: str, guid: str):
 #       alias uvicorn='python3 -m uvicorn'
 #
 
+"""
 if __name__ == '__main__':
   uvicorn.run(
     app = 'main:apiApp',
@@ -106,3 +107,4 @@ if __name__ == '__main__':
     host = '0.0.0.0',
     port = 443
   )
+"""
