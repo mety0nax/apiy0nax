@@ -99,7 +99,7 @@ if __name__ == '__main__':
   uvicorn.run(
     app = 'api:apiApp',
     use_colors = False,
-    log_config = 'log.ini',
+    # log_config = 'log.ini',
     # ssl_certfile = '/etc/letsencrypt/live/<domain>/fullchain.pem',
     # ssl_keyfile = '/etc/letsencrypt/live/<domain>/privkey.pem',
     headers = [('server', 'Just Server')],
