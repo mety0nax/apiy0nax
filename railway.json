@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "uvicorn \"main:apiApp\"' --log-config ./logs/api.log --no-use-colors --port \"[::]:$PORT\""
+    "startCommand": "python3 -m uvicorn \"main:apiApp\"' --port \"[::]:$PORT\""
   }
 }
