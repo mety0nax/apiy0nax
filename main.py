@@ -104,5 +104,5 @@ if __name__ == '__main__':
     # ssl_keyfile = '/etc/letsencrypt/live/<domain>/privkey.pem',
     headers = [('server', 'Just Server')],
     host = '127.0.0.1',
-    port = 60300
+    # port = 60300
   )
