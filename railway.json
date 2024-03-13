@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python3 -m uvicorn \"main:apiApp\"' --host \"::\" --port \"$PORT\""
+    "startCommand": "python3 ./main.py"
   }
 }
