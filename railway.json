@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python3 ./main.py"
+    "startCommand": "hypercorn main:app --bind \"[::]:$PORT\""
   }
 }
