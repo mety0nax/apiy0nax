@@ -103,6 +103,6 @@ if __name__ == '__main__':
     # ssl_certfile = '/etc/letsencrypt/live/<domain>/fullchain.pem',
     # ssl_keyfile = '/etc/letsencrypt/live/<domain>/privkey.pem',
     headers = [('server', 'Just Server')],
-    # host = '0.0.0.0',
-    # port = 80
+    host = '0.0.0.0',
+    port = 443
   )
