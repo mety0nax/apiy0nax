@@ -1,2 +1,2 @@
 fastapi==0.100.0
-uvicorn
+hypercorn=0.14.4
