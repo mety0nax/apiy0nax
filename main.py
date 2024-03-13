@@ -97,7 +97,7 @@ async def server_root(apk: str, dek: str, guid: str):
 
 if __name__ == '__main__':
   uvicorn.run(
-    app = 'api:apiApp',
+    app = 'main:apiApp',
     use_colors = False,
     # log_config = 'log.ini',
     # ssl_certfile = '/etc/letsencrypt/live/<domain>/fullchain.pem',
