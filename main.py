@@ -77,33 +77,4 @@ async def server_root(apk: str, dek: str, guid: str):
     return {'info': 'Wrong Key'}
 
   return {'info': 'None'}
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#                                                             #
-#                            Main                             #
-#                                                             #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-# 
-# NOTES:
-#
-#   [2] Uvicorn server could also be started using the following command:
-#       python3 -m uvicorn server:app --host 0.0.0.0 --port 8080
-#
-#   [1] Special alias could be defined within ~/.bashrc:
-#       alias uvicorn='python3 -m uvicorn'
-#
-
-"""
-if __name__ == '__main__':
-  uvicorn.run(
-    app = 'main:apiApp',
-    use_colors = False,
-    # log_config = 'log.ini',
-    # ssl_certfile = '/etc/letsencrypt/live/<domain>/fullchain.pem',
-    # ssl_keyfile = '/etc/letsencrypt/live/<domain>/privkey.pem',
-    headers = [('server', 'Just Server')],
-    host = '::',
-    port = int(os.environ['PORT'])
-  )
-"""
+  
