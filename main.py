@@ -49,7 +49,7 @@ def check_dek_and_guid_match(dek, guid):
   used_keys_database = [ l.strip( ) for l in open(keys_used_file, 'r').readlines( ) ]
   for line in used_keys_database:
     dek_used, guid_assigned = line.split(';')
-    if guid.strip( ) == guid_assigned:
+    if dek == dek_used and guid.strip( ) == guid_assigned:
       return True
   return False
 
